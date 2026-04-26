@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samdent Tandläkarklinik | Din Tandläkare i Stockholm</title>
+    <meta name="description" content="Samdent — modern tandvård i Stockholm. Kliniker i Hallonbergen och Arenastaden. Invisalign, tandimplantat, estetisk tandvård och mer.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="/" class="logo">
+                <span class="logo-text">Samdent</span>
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Meny">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hem">Hem</a></li>
+                <li><a href="#behandlingar">Behandlingar</a></li>
+                <li><a href="#om-oss">Om oss</a></li>
+                <li><a href="#team">Teamet</a></li>
+                <li><a href="#kliniker">Kliniker</a></li>
+                <li><a href="#priser">Priser</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+                <li><a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-nav" target="_blank">Boka tid</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hem">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Din tandläkare i Stockholm</h1>
+            <p class="hero-sub">Erfarna tandläkare, modern teknik och en trygg miljö. Välkommen till Samdent — där din tandhälsa är vår främsta prioritet.</p>
+            <div class="hero-buttons">
+                <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-primary btn-lg" target="_blank">Boka tid</a>
+                <a href="#behandlingar" class="btn btn-outline btn-lg">Våra behandlingar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Actions -->
+    <section class="quick-actions">
+        <div class="container">
+            <div class="actions-grid">
+                <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="action-card" target="_blank">
+                    <div class="action-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="8" width="48" height="48" rx="8" stroke="currentColor" stroke-width="2.5"/><path d="M24 32h16M32 24v16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="32" cy="32" r="20" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4"/></svg>
+                    </div>
+                    <h3>Boka tid</h3>
+                </a>
+                <a href="#kliniker" class="action-card">
+                    <div class="action-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32 8C22.06 8 14 16.06 14 26c0 14 18 30 18 30s18-16 18-30C50 16.06 41.94 8 32 8z" stroke="currentColor" stroke-width="2.5"/><circle cx="32" cy="26" r="6" stroke="currentColor" stroke-width="2.5"/></svg>
+                    </div>
+                    <h3>Hitta klinik</h3>
+                </a>
+                <a href="https://www.muntra.com/samdent-mos/c/4678/referral_source=samdent.se" class="action-card" target="_blank">
+                    <div class="action-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 16h24v8l8 6v18a4 4 0 01-4 4H16a4 4 0 01-4-4V30l8-6v-8z" stroke="currentColor" stroke-width="2.5"/><path d="M24 16v-4a8 8 0 0116 0v4" stroke="currentColor" stroke-width="2.5"/><circle cx="32" cy="36" r="4" stroke="currentColor" stroke-width="2.5"/><path d="M32 40v6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Akut tandvård</h3>
+                </a>
+                <a href="#invisalign" class="action-card">
+                    <div class="action-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 28c0-8 8-14 20-14s20 6 20 14" stroke="currentColor" stroke-width="2.5"/><path d="M12 28c0 8 8 14 20 14s20-6 20-14" stroke="currentColor" stroke-width="2.5"/><path d="M20 28c0-4 5-8 12-8s12 4 12 8" stroke="currentColor" stroke-width="2"/><path d="M20 28c0 4 5 8 12 8s12-4 12-8" stroke="currentColor" stroke-width="2"/></svg>
+                    </div>
+                    <h3>Invisalign</h3>
+                </a>
+                <a href="#tandimplantat" class="action-card">
+                    <div class="action-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 8h8v12l-2 4h-4l-2-4V8z" stroke="currentColor" stroke-width="2.5"/><path d="M30 24v4l-2 20h8l-2-20v-4" stroke="currentColor" stroke-width="2.5"/><path d="M28 48h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Tandimplantat</h3>
+                </a>
+                <a href="#estetisk" class="action-card">
+                    <div class="action-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32 8l6 12h14l-11 8 4 14-13-9-13 9 4-14-11-8h14l6-12z" stroke="currentColor" stroke-width="2.5"/></svg>
+                    </div>
+                    <h3>Estetisk tandvård</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="om-oss">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Om Samdent</span>
+                <h2>Sveriges tryggaste och vänligaste tandvård.</h2>
+                <p class="section-desc">Det är vårt outtröttliga mål. Vi vill göra det lättare, tryggare och trevligare att gå till tandläkaren.</p>
+            </div>
+            <div class="about-story">
+                <p>Historien om Samdent börjar 2010 när vår tandläkare, Sam, tog examen från Malmö Högskolan. Hans passion för tandvård och engagemang för patienternas välbefinnande ledde honom till en start i folktandvården i Solna och Hallonbergen.</p>
+                <p>År 2014 öppnade vi våra dörrar till en liten klinik i Hallonbergen. I november 2023 tog Sam och Afsaneh nästa steg och öppnade en ny, modern klinik i Arenastaden (Mall of Scandinavia). Vår vision är att erbjuda högkvalitativ tandvård med en personlig touch.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🕐</div>
+                    <h3>Tillgänglighet</h3>
+                    <p>Vi finns här för dig när det verkligen behövs. Vi bemöter akuta ärenden även utanför ordinarie öppettider, allt för att vara tillgängliga just för din skull.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Vi ses, men inte för ofta</h3>
+                    <p>Vårt arbetssätt syftar till att verka förebyggande och långsiktigt. Genom regelbundna kontroller hjälper vi dig undvika framtida problem och hålla tänderna friska.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💛</div>
+                    <h3>Tandvårdsrädd?</h3>
+                    <p>Det är helt normalt att vara nervös. Våra erfarna tandläkare har ett mjukt tillvägagångssätt och anpassar besöket efter dina behov. Vi lovar att göra allt för en positiv upplevelse.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Treatments Section -->
+    <section class="treatments" id="behandlingar">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Behandlingar</span>
+                <h2>Behandlingar vi kan hjälpa dig med</h2>
+                <p class="section-desc">Vi erbjuder ett brett utbud av tandvårdstjänster — från regelbundna undersökningar till avancerade behandlingar.</p>
+            </div>
+            <div class="accordion">
+                <!-- Undersökning -->
+                <div class="accordion-item" id="undersokning">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Undersökning & Basundersökning</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>Vår kompletta undersökning inkluderar en diagnos av tänderna och käkarna, 4 röntgenbilder, och en fullständig klinisk undersökning där vi granskar tänder, käkar, tandkött och svalg.</p>
+                            <p>Vi mäter tandköttsfickorna för att upptäcka tecken på periodontit. Efter undersökningen skapar vi alltid en terapiplan och kostnadsförslag — vi startar aldrig en behandling utan ditt godkännande.</p>
+                            <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-sm btn-primary" target="_blank">Boka undersökning</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Invisalign -->
+                <div class="accordion-item" id="invisalign">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Invisalign & Tandreglering</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>Invisalign är en revolutionerande metod för att räta tänderna utan synliga metalltandställningar. Genomskinliga, skräddarsydda skenor flyttar gradvis tänderna till rätt position.</p>
+                            <p><strong>Diamond Provider:</strong> Vår specialist André Wikholm är certifierad Invisalign Diamond Provider — en av de högsta nivåerna av expertis.</p>
+                            <ul>
+                                <li>Nästan osynliga skenor</li>
+                                <li>Avtagbara — äta och borsta fritt</li>
+                                <li>Personligt anpassad behandlingsplan</li>
+                            </ul>
+                            <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-sm btn-primary" target="_blank">Boka konsultation</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tandimplantat -->
+                <div class="accordion-item" id="tandimplantat">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Tandimplantat</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>Tandimplantat är en permanent lösning för att ersätta saknade tänder. En titanskruv placeras i käkbenet och fungerar som en naturlig tandrot, med en keramisk krona på toppen.</p>
+                            <ul>
+                                <li>Bättre munhälsa och ätbarhet</li>
+                                <li>Ökat självförtroende</li>
+                                <li>Permanent lösning</li>
+                                <li>Vår specialist Amir Sikaroudi — käkkirurgi & implantologi</li>
+                            </ul>
+                            <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-sm btn-primary" target="_blank">Boka konsultation</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tandblekning -->
+                <div class="accordion-item" id="tandblekning">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Tandblekning</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>Vi erbjuder professionell tandblekning på klinik med individuellt anpassade blekskenor. En undersökning krävs först för att säkerställa att din mun är frisk.</p>
+                            <p><em>Pris: 2 000 kr (hel box, över- och underkäke, blekskena + blekmedel)</em></p>
+                            <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-sm btn-primary" target="_blank">Boka tandblekning</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Rotfyllning -->
+                <div class="accordion-item" id="rotfyllning">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Rotfyllning</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>Rotfyllning räddar en infekterad tand genom att rensa rotkanalen och fylla den med ett hållbart material. Behandlingen utförs under lokalbedövning.</p>
+                            <p>Om karies förblir obehandlat kan infektionen sprida sig — därför är det viktigt att agera tidigt.</p>
+                            <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-sm btn-primary" target="_blank">Boka tid</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Lagning -->
+                <div class="accordion-item" id="lagning">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Lagning av tand</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>Vi lagar tänder med moderna kompositmaterial som matchar din naturliga tandfärg. Beroende på skadans omfattning fyller vi 1–3 ytor.</p>
+                            <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-sm btn-primary" target="_blank">Boka tid</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tandkronor & Broar -->
+                <div class="accordion-item" id="tandkronor">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Tandkronor & Tandbroar</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>När en tand är kraftigt skadad kan en tandkrona skydda och återställa den. Tandbroar ersätter en eller flera saknade tänder genom att fästa vid intilliggande tänder.</p>
+                            <p>Vår specialist Amer Hot — över 20 års erfarenhet inom oral protetik.</p>
+                            <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-sm btn-primary" target="_blank">Boka konsultation</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skalfasad -->
+                <div class="accordion-item" id="skalfasad">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Skalfasader (Veneers)</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>Skalfasader är tunna keramiska skal som fästs på framtänderna för att förbättra form, färg och utseende. En populär estetisk behandling för ett perfekt leende.</p>
+                            <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-sm btn-primary" target="_blank">Boka konsultation</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tandutdragning -->
+                <div class="accordion-item" id="tandutdragning">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Tandutdragning</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>Vi utför tandextraktioner när en tand inte kan räddas. Enkel extraktion, separation eller kirurgiskt avlägsnande av visdomständer — vi hjälper dig.</p>
+                            <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-sm btn-primary" target="_blank">Boka akut tid</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tandprotes -->
+                <div class="accordion-item" id="tandprotes">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Tandprotes</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>Vi erbjuder både hela och partiella tandproteser som ersättning för saknade tänder. En kostnadseffektiv lösning som återställer både funktion och estetik.</p>
+                            <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-sm btn-primary" target="_blank">Boka konsultation</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tandsten -->
+                <div class="accordion-item" id="tandsten">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Tandstensborttagning</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>Regelbunden borttagning av tandsten är viktigt för att förhindra tandköttsinflammation och hål. Vår tandhygienist hjälper dig hålla tänderna rena och friska.</p>
+                            <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-sm btn-primary" target="_blank">Boka tid</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Airflow -->
+                <div class="accordion-item" id="airflow">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Airflow-behandling</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>Airflow är en mild och effektiv tandrengöring som putsar och blästrar tänderna med en blandning av salt, vatten och luft. Återskapar tändernas naturliga färg — även mellan och bakom tänderna.</p>
+                            <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-sm btn-primary" target="_blank">Boka Airflow</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tandlossning -->
+                <div class="accordion-item" id="tandlossning">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Tandlossningsbehandling</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>Parodontit (tandlossning) behandlas genom grundlig rengöring av tandköttsfickorna. Vår tandhygienist Afsaneh fokuserar på förebyggande vård och hjälper dig bevara dina tänder.</p>
+                            <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-sm btn-primary" target="_blank">Boka tid</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Snarkskena -->
+                <div class="accordion-item" id="snarkskena">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Snarkskena</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>En snarkskena hjälper till att hålla luftvägarna öppna under sömn. Vi erbjuder skräddarsydda skenor som passar just dig.</p>
+                            <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-sm btn-primary" target="_blank">Boka konsultation</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bettskena -->
+                <div class="accordion-item" id="bettskena">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Bettskena</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>Gnisslar du tänder på natten? En bettskena skyddar tänder och käkar från belastning. Vi erbjuder både hårda akrylat- och mjuka skenor, skräddarsydda efter din mun.</p>
+                            <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-sm btn-primary" target="_blank">Boka konsultation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Vårt team</span>
+                <h2>Meet Our Experts</h2>
+                <p class="section-desc">Ett team av specialister med över 20 års genomsnittlig erfarenhet. Var fjärde tandläkare har specialiserad utbildning.</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card featured">
+                    <div class="team-photo">
+                        <div class="placeholder-photo">SM</div>
+                    </div>
+                    <h3>Sam Mohammadi</h3>
+                    <p class="team-role">Legitimerad Tandläkare, VD</p>
+                    <p class="team-bio">Examen från Malmö Högskola. Klinikchef och specialist på implantatkirurgi, estetiska behandlingar, Botox och Fillers.</p>
+                </div>
+                <div class="team-card featured">
+                    <div class="team-photo">
+                        <div class="placeholder-photo">AR</div>
+                    </div>
+                    <h3>Afsaneh Rahmani</h3>
+                    <p class="team-role">Legitimerad Tandhygienist, Vice VD</p>
+                    <p class="team-bio">Examen från Karolinska Institutet. Ansvarig för daglig drift med fokus på förebyggande tandvård och tandvårdsrädda patienter.</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-photo">
+                        <div class="placeholder-photo">AS</div>
+                    </div>
+                    <h3>Amir Sikaroudi</h3>
+                    <p class="team-role">Käkkirurgi & Implantologi</p>
+                    <p class="team-bio">Specialisering från Semmelweis Universitet. Expert på estetisk tandvård och komplicerade kirurgiska ingrepp.</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-photo">
+                        <div class="placeholder-photo">AH</div>
+                    </div>
+                    <h3>Amer Hot</h3>
+                    <p class="team-role">Specialist Oral Protetik</p>
+                    <p class="team-bio">Över 20 års erfarenhet. Specialistutbildning vid S:t Eriks sjukhus, certifierad 2009. Karolinska Institutet.</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-photo">
+                        <div class="placeholder-photo">AW</div>
+                    </div>
+                    <h3>André Wikholm</h3>
+                    <p class="team-role">Specialist Invisalign Diamond Provider</p>
+                    <p class="team-bio">Specialistläkare sedan 2014. Medgrundare av Swedish Aligner Society. Enbart inriktad på aligner-behandling.</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-photo">
+                        <div class="placeholder-photo">RM</div>
+                    </div>
+                    <h3>Ramilla Moghaddam</h3>
+                    <p class="team-role">Tandsköterska / Receptionist</p>
+                    <p class="team-bio">Varm och vänlig — skapar en atmosfär av välbefinnande för varje patient.</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-photo">
+                        <div class="placeholder-photo">MS</div>
+                    </div>
+                    <h3>Miranda Strandberg</h3>
+                    <p class="team-role">Tandsköterska / Receptionist</p>
+                    <p class="team-bio">Ambitiös och engagerad med mål att vidareutbilda sig till tandläkare.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <section class="trust-bar">
+        <div class="container">
+            <h2>Tandvård gjort rätt</h2>
+            <p>Vårt team brinner för att bygga livstidsrelationer genom positiva upplevelser.</p>
+            <div class="trust-items">
+                <div class="trust-item">
+                    <strong>Transparent Prissättning</strong>
+                    <span>Inga dolda kostnader</span>
+                </div>
+                <div class="trust-item">
+                    <strong>Garanterade Resultat</strong>
+                    <span>Vi står för vår kvalitet</span>
+                </div>
+                <div class="trust-item">
+                    <strong>Dina Behav Först</strong>
+                    <span>Personlig behandlingsplan</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clinics Section -->
+    <section class="clinics" id="kliniker">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Våra kliniker</span>
+                <h2>Hitta din närmaste klinik</h2>
+                <p class="section-desc">Två moderna kliniker i Stockholm med toppmodern utrustning och duktiga tandläkare.</p>
+            </div>
+            <div class="clinic-cards">
+                <div class="clinic-card">
+                    <div class="clinic-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2034.0!2d17.9708!3d59.3712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTnCsDIyJzE2LjMiTiAxN8KwNTgnMTQuOSJF!5e0!3m2!1ssv!2sse!4v1" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="clinic-info">
+                        <h3>Samdent Hallonbergen</h3>
+                        <div class="clinic-detail">
+                            <span class="clinic-detail-icon">📍</span>
+                            <div><strong>Hallonbergsplan 18, 174 52 Sundbyberg</strong></div>
+                        </div>
+                        <div class="clinic-detail">
+                            <span class="clinic-detail-icon">📞</span>
+                            <div><a href="tel:08333455">08-33 34 55</a></div>
+                        </div>
+                        <div class="clinic-detail">
+                            <span class="clinic-detail-icon">✉️</span>
+                            <div><a href="mailto:receptionen@samdent.se">receptionen@samdent.se</a></div>
+                        </div>
+                        <div class="clinic-detail">
+                            <span class="clinic-detail-icon">🕐</span>
+                            <div>Vardagar 13:00–17:00<br><em>Akuta fall: flexibla tider</em></div>
+                        </div>
+                        <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-primary clinic-book-btn" target="_blank">Boka tid Hallonbergen</a>
+                    </div>
+                </div>
+                <div class="clinic-card">
+                    <div class="clinic-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2034.0!2d17.9150!3d59.3718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTnCsDIyJzE4LjUiTiAxN8KwNTQnNTQuMCJF!5e0!3m2!1ssv!2sse!4v1" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="clinic-info">
+                        <h3>Samdent Arenastaden</h3>
+                        <div class="clinic-detail">
+                            <span class="clinic-detail-icon">📍</span>
+                            <div><strong>Evenemangsgatan 21, 169 79 Solna</strong></div>
+                        </div>
+                        <div class="clinic-detail">
+                            <span class="clinic-detail-icon">📞</span>
+                            <div><a href="tel:08333455">08-33 34 55</a></div>
+                        </div>
+                        <div class="clinic-detail">
+                            <span class="clinic-detail-icon">✉️</span>
+                            <div><a href="mailto:receptionenmos@samdent.se">receptionenmos@samdent.se</a></div>
+                        </div>
+                        <div class="clinic-detail">
+                            <span class="clinic-detail-icon">🕐</span>
+                            <div>Mån–Fre 08:00–17:00<br>Lördag 10:00–15:00<br><em>Akuta fall: flexibla tider</em></div>
+                        </div>
+                        <a href="https://www.muntra.com/samdent-mos/c/4678/referral_source=samdent.se" class="btn btn-primary clinic-book-btn" target="_blank">Boka tid Arenastaden</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prices Section -->
+    <section class="prices" id="priser">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Priser</span>
+                <h2>Transparent prissättning</h2>
+                <p class="section-desc">Vi tror på tydliga priser utan dolda kostnader. Välj klinik nedan.</p>
+            </div>
+
+            <div class="price-tabs">
+                <button class="price-tab active" data-clinic="hallonbergen">Hallonbergen</button>
+                <button class="price-tab" data-clinic="arenastaden">Arenastaden</button>
+            </div>
+
+            <!-- Hallonbergen Prices -->
+            <div class="price-table-wrapper active" id="prices-hallonbergen">
+                <div class="price-group">
+                    <div class="price-group-title">Undersökning</div>
+                    <div class="price-row"><span class="code">101</span><span class="label">Undersökning utförd av tandläkare</span><span class="price">1 085 kr</span></div>
+                    <div class="price-row"><span class="code">103</span><span class="label">Akut undersökning</span><span class="price">589 kr</span></div>
+                    <div class="price-row"><span class="code">112</span><span class="label">Undersökning utförd av tandhygienist</span><span class="price">1 085 kr</span></div>
+                    <div class="price-row"><span class="code">124</span><span class="label">Panoramaröntgen</span><span class="price">820 kr</span></div>
+                </div>
+                <div class="price-group">
+                    <div class="price-group-title">Förebyggande</div>
+                    <div class="price-row"><span class="code">205</span><span class="label">Fluorbehandling</span><span class="price">248 kr</span></div>
+                    <div class="price-row"><span class="code">341</span><span class="label">Parodontal behandling, mindre</span><span class="price">699 kr</span></div>
+                    <div class="price-row"><span class="code">342</span><span class="label">Parodontal behandling, omfattande</span><span class="price">1 359 kr</span></div>
+                </div>
+                <div class="price-group">
+                    <div class="price-group-title">Fyllningar</div>
+                    <div class="price-row"><span class="code">701</span><span class="label">Fyllning 1 yta, fram-/hörntand</span><span class="price">1 003 kr</span></div>
+                    <div class="price-row"><span class="code">702</span><span class="label">Fyllning 2 ytor, fram-/hörntand</span><span class="price">1 515 kr</span></div>
+                    <div class="price-row"><span class="code">703</span><span class="label">Fyllning 3+ ytor, fram-/hörntand</span><span class="price">1 953 kr</span></div>
+                    <div class="price-row"><span class="code">704</span><span class="label">Fyllning 1 yta, molar/premolar</span><span class="price">1 250 kr</span></div>
+                    <div class="price-row"><span class="code">705</span><span class="label">Fyllning 2 ytor, molar/premolar</span><span class="price">1 755 kr</span></div>
+                    <div class="price-row"><span class="code">706</span><span class="label">Fyllning 3+ ytor, molar/premolar</span><span class="price">2 165 kr</span></div>
+                </div>
+                <div class="price-group">
+                    <div class="price-group-title">Kirurgi & Extraktion</div>
+                    <div class="price-row"><span class="code">401</span><span class="label">Tandextraktion, enkel</span><span class="price">1 690 kr</span></div>
+                    <div class="price-row"><span class="code">402</span><span class="label">Tandextraktion, separation/friläggning</span><span class="price">2 590 kr</span></div>
+                    <div class="price-row"><span class="code">404</span><span class="label">Kirurgiskt avlägsnande visdomtand</span><span class="price">4 990 kr</span></div>
+                    <div class="price-row"><span class="code">420</span><span class="label">Implantat, per styck</span><span class="price">5 340 kr</span></div>
+                </div>
+                <div class="price-group">
+                    <div class="price-group-title">Rotfyllning</div>
+                    <div class="price-row"><span class="code">501</span><span class="label">Rotfyllning, en rotkanal</span><span class="price">5 490 kr</span></div>
+                    <div class="price-row"><span class="code">502</span><span class="label">Rotfyllning, två rotkanaler</span><span class="price">6 290 kr</span></div>
+                    <div class="price-row"><span class="code">503</span><span class="label">Rotfyllning, tre rotkanaler</span><span class="price">7 890 kr</span></div>
+                    <div class="price-row"><span class="code">504</span><span class="label">Rotfyllning, fyra+ rotkanaler</span><span class="price">8 590 kr</span></div>
+                </div>
+                <div class="price-group">
+                    <div class="price-group-title">Bettskenor & Övrigt</div>
+                    <div class="price-row"><span class="code">601</span><span class="label">Bettskena hård akrylat</span><span class="price">5 155 kr</span></div>
+                    <div class="price-row"><span class="code">604</span><span class="label">Bettskena mjukskena</span><span class="price">2 950 kr</span></div>
+                    <div class="price-row"><span class="code">–</span><span class="label">Blekning, hela box</span><span class="price">2 000 kr</span></div>
+                    <div class="price-row"><span class="code">90</span><span class="label">Retainer ny inkl. fastsättning</span><span class="price">2 810 kr</span></div>
+                </div>
+            </div>
+
+            <!-- Arenastaden Prices -->
+            <div class="price-table-wrapper" id="prices-arenastaden">
+                <div class="price-group">
+                    <div class="price-group-title">Undersökning</div>
+                    <div class="price-row"><span class="code">101</span><span class="label">Undersökning utförd av tandläkare</span><span class="price">1 020 kr</span></div>
+                    <div class="price-row"><span class="code">103</span><span class="label">Akut undersökning</span><span class="price">505 kr</span></div>
+                    <div class="price-row"><span class="code">112</span><span class="label">Undersökning utförd av tandhygienist</span><span class="price">1 020 kr</span></div>
+                    <div class="price-row"><span class="code">124</span><span class="label">Panoramaröntgen</span><span class="price">710 kr</span></div>
+                </div>
+                <div class="price-group">
+                    <div class="price-group-title">Förebyggande</div>
+                    <div class="price-row"><span class="code">205</span><span class="label">Fluorbehandling</span><span class="price">410 kr</span></div>
+                    <div class="price-row"><span class="code">341</span><span class="label">Parodontal behandling, mindre</span><span class="price">645 kr</span></div>
+                    <div class="price-row"><span class="code">342</span><span class="label">Parodontal behandling, omfattande</span><span class="price">1 255 kr</span></div>
+                </div>
+                <div class="price-group">
+                    <div class="price-group-title">Fyllningar</div>
+                    <div class="price-row"><span class="code">701</span><span class="label">Fyllning 1 yta, fram-/hörntand</span><span class="price">900 kr</span></div>
+                    <div class="price-row"><span class="code">702</span><span class="label">Fyllning 2 ytor, fram-/hörntand</span><span class="price">1 360 kr</span></div>
+                    <div class="price-row"><span class="code">703</span><span class="label">Fyllning 3+ ytor, fram-/hörntand</span><span class="price">1 755 kr</span></div>
+                    <div class="price-row"><span class="code">704</span><span class="label">Fyllning 1 yta, molar/premolar</span><span class="price">1 125 kr</span></div>
+                    <div class="price-row"><span class="code">705</span><span class="label">Fyllning 2 ytor, molar/premolar</span><span class="price">1 575 kr</span></div>
+                    <div class="price-row"><span class="code">706</span><span class="label">Fyllning 3+ ytor, molar/premolar</span><span class="price">1 945 kr</span></div>
+                </div>
+                <div class="price-group">
+                    <div class="price-group-title">Kirurgi & Extraktion</div>
+                    <div class="price-row"><span class="code">401</span><span class="label">Tandextraktion, enkel</span><span class="price">1 450 kr</span></div>
+                    <div class="price-row"><span class="code">402</span><span class="label">Tandextraktion, separation/friläggning</span><span class="price">2 135 kr</span></div>
+                    <div class="price-row"><span class="code">404</span><span class="label">Kirurgiskt avlägsnande visdomtand</span><span class="price">4 250 kr</span></div>
+                    <div class="price-row"><span class="code">420</span><span class="label">Implantat, per styck</span><span class="price">4 575 kr</span></div>
+                </div>
+                <div class="price-group">
+                    <div class="price-group-title">Rotfyllning</div>
+                    <div class="price-row"><span class="code">501</span><span class="label">Rotfyllning, en rotkanal</span><span class="price">4 680 kr</span></div>
+                    <div class="price-row"><span class="code">502</span><span class="label">Rotfyllning, två rotkanaler</span><span class="price">5 375 kr</span></div>
+                    <div class="price-row"><span class="code">503</span><span class="label">Rotfyllning, tre rotkanaler</span><span class="price">6 760 kr</span></div>
+                    <div class="price-row"><span class="code">504</span><span class="label">Rotfyllning, fyra+ rotkanaler</span><span class="price">7 320 kr</span></div>
+                </div>
+                <div class="price-group">
+                    <div class="price-group-title">Bettskenor & Övrigt</div>
+                    <div class="price-row"><span class="code">601</span><span class="label">Bettskena hård akrylat</span><span class="price">4 565 kr</span></div>
+                    <div class="price-row"><span class="code">604</span><span class="label">Bettskena mjukskena</span><span class="price">2 515 kr</span></div>
+                    <div class="price-row"><span class="code">–</span><span class="label">Blekning, hela box</span><span class="price">2 000 kr</span></div>
+                    <div class="price-row"><span class="code">90</span><span class="label">Retainer ny inkl. fastsättning</span><span class="price">2 810 kr</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Vanliga frågor</span>
+                <h2>Frågor och svar</h2>
+            </div>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Hur bokar jag en tid?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>Du bokar enklast via vår onlinebokning. Välj klinik och behandling, fyll i dina uppgifter och tiden är bokad. Du kan också ringa oss på 08-33 34 55.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Kan jag delbetala?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>Ja, vi erbjuder delbetalningslösningar. Kontakta oss för mer information om vilka alternativ som passar dig.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Jag är tandvårdsrädd — vad gör jag?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>Berätta gärna det för oss vid bokningstillfället. Vi anpassar besöket efter dina behov. Vår tandhygienist Afsaneh har stor vana av att behandla tandvårdsrädda patienter.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Vad kostar en undersökning?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>En basundersökning kostar från 1 020 kr (Arenastaden) till 1 085 kr (Hallonbergen). Akut undersökning från 505 kr. Se fullständig prislista ovan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Erbjuder ni akuttider?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>Ja! Vi har flexibla öppettider för akuta ärenden och kan ofta hjälpa dig samma dag. Ring oss på 08-33 34 55.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Hur fungerar Invisalign?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <p>Invisalign använder genomskinliga, skräddarsydda skenor som flyttar tänderna gradvis. Vår Diamond Provider André Wikholm planerar din behandling digitalt. Boka en kostnadsfri konsultation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="kontakt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Kontakt</span>
+                <h2>Kontakta oss</h2>
+                <p class="section-desc">Vi finns här för dig. Vi strävar alltid efter att du ska vara nöjd.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>Ring oss</h3>
+                    <p class="phone"><a href="tel:08333455">08-33 34 55</a></p>
+                    <ul class="contact-hours">
+                        <li><span class="day">Hallonbergen</span><span class="time">Vard 13–17</span></li>
+                        <li><span class="day">Arenastaden Mån–Fre</span><span class="time">08–17</span></li>
+                        <li><span class="day">Arenastaden Lör</span><span class="time">10–15</span></li>
+                        <li><span class="day">Akuta fall</span><span class="time">Flexibelt</span></li>
+                    </ul>
+                    <p class="email"><a href="mailto:receptionen@samdent.se">receptionen@samdent.se</a></p>
+                </div>
+                <div class="contact-card">
+                    <h3>Boka online</h3>
+                    <p style="margin-bottom: 24px; color: var(--gray-500);">Välj din klinik och boka direkt.</p>
+                    <div style="display: flex; flex-direction: column; gap: 12px;">
+                        <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-primary" target="_blank">Boka Hallonbergen</a>
+                        <a href="https://www.muntra.com/samdent-mos/c/4678/referral_source=samdent.se" class="btn btn-primary" target="_blank">Boka Arenastaden</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>Dags för en undersökning?</h2>
+            <p>Regelbundna besök hos tandvården är viktigt för att dina tänder ska må bra. Välkommen till oss.</p>
+            <a href="https://www.muntra.com/samdent-tandlakarklinik/c/407" class="btn btn-lg" target="_blank">Boka din tid idag</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-text">Samdent</span>
+                    <p>Modern tandvård med personlig touch. Kliniker i Hallonbergen och Arenastaden, Stockholm.</p>
+                </div>
+                <div>
+                    <h4>Behandlingar</h4>
+                    <ul class="footer-links">
+                        <li><a href="#undersokning">Undersökning</a></li>
+                        <li><a href="#invisalign">Invisalign</a></li>
+                        <li><a href="#tandimplantat">Tandimplantat</a></li>
+                        <li><a href="#tandblekning">Tandblekning</a></li>
+                        <li><a href="#rotfyllning">Rotfyllning</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Kliniker</h4>
+                    <ul class="footer-links">
+                        <li><a href="#kliniker">Hallonbergen</a></li>
+                        <li><a href="#kliniker">Arenastaden</a></li>
+                        <li><a href="#priser">Priser</a></li>
+                        <li><a href="#kontakt">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Kontakt</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:08333455">08-33 34 55</a></li>
+                        <li><a href="mailto:receptionen@samdent.se">receptionen@samdent.se</a></li>
+                        <li><a href="#kliniker">Hitta hit</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 Samdent Tandläkarklinik. Alla rättigheter förbehållna.</span>
+                <span>
+                    <a href="#">Integritetspolicy</a> · <a href="#">Villkor</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
